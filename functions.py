@@ -59,7 +59,6 @@ def newmark(N, M, w, tau = None, h = None):
             u1[i]=u2[i]
     return u2, t
 
-
 def sol_given_fct2(fct):
     #given the initial condition fct, i.e. u(x,0)=fct(x), it returns the exact solution of the wave equation.
     def uex(x,t):
@@ -77,7 +76,6 @@ def fct(Mus, K = 1):
         return sum(vec)
     return somme
 
-
 def int_MC(N_mu):
     #returns the integral I of 2^{N_mu} int_[-1,1]^{N_mu} int_[0, 1] |u_exact(x, mu)|^2 dx dmu, for K = 1.
     J =np.arange(1,N_mu+1)
@@ -85,7 +83,6 @@ def int_MC(N_mu):
 #--------------------------------------------------------------------------------------
 
 ## ~~~ UTILITIES ~~~~
-
 def plot_sol(N,u):
     #plot the solution u (vector of size N) of N points.
     h=1/(N+1)
@@ -117,7 +114,6 @@ def export_legend(legend, filename):
 #--------------------------------------------------------------------------------------
 
 ## ~~~ Neural Network ~~~~
-
 class Net(nn.Module):
         def __init__(self, N_HL, N_n, N_h, N_mu):
             super(Net, self).__init__()
@@ -134,7 +130,6 @@ class Net(nn.Module):
                 x = F.relu(l(x))
             x = self.fc4(x)
             return x
-
 
 class Inputs(Dataset):
     #generate N_x samples, each with N_mu parameters, and compute the solution y given by the Newmark scheme with N time steps.
