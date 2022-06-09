@@ -36,3 +36,6 @@ The notebooks are organized according to the report.
 #### 4.4 Convergence of $\frac{1}{N_{M}} \left \Vert \mathbf{u}(\boldsymbol{\mu}) - \mathbf{u}_{DNN}(\boldsymbol{\mu}; \tilde{\boldsymbol{\Theta}})\right \Vert ^2$
 "train table conv NN K=2.ipynb" trains different models. 
 "table conv NN.ipynb" computes average final errors. 
+
+### Folders
+The folders contain data or figures obtained by the computations implemented in the notebook files.
