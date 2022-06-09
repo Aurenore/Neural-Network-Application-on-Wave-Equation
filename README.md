@@ -1,5 +1,7 @@
 # Neural-Network-Application-on-Wave-Equation
-CSE Semester Project
+CSE Semester Project, spring 2022
+EPFL
+Contact : anya-aurore.mauron@epfl.ch
 
 ## Abstract 
 The 1D wave equation describes the physical phenomena of mechanical waves or electromagnetic waves. We consider this equation with an initial condition which is a linear combination of sinusoidal functions, where the weights depend on some instances of i.i.d random variables following a uniform distribution.  
