@@ -11,7 +11,7 @@ The aim of this study is to approximate the solution of the wave equation at the
 In the end, we found that the neural network achieves to approximate the solution well. However, the architecture of the model depends highly on the input/output dimensions. 
 
 ## Structure
-The written report can be found under the name of ... . The rest consists of the code used for the report, going from the implementations of the Newmark scheme, to neural networks and various plots. 
+The written report can be found under the name of "Semester_Project___Deep_Neural_Network_Application_on_Wave_Equation.pdf" . The rest consists of the code used for the report, going from the implementations of the Newmark scheme, to neural networks and various plots. 
 To run the code, the following packages are needed: numpy, matplotlib, torch, pandas, math, time.
 
 ### Helpers
